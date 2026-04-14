@@ -23,22 +23,22 @@ To generate your own carriers or run the loader, you need:
 ## Setup & Configuration
 
 ### 1. The Payload Injection
-Input your HTML/CSS/JS source into the encoder. The PHP engine will generate a `banner.png`. **Crucial:** The file must be handled as a Lossless asset to maintain bit-stream integrity.
+Input your HTML/CSS/JS source into the encoder. The PHP engine will generate a `fragment.png`. **Crucial:** The file must be handled as a Lossless asset to maintain bit-stream integrity.
 
 ### 2. The Decoder Logic
 The recovery engine is environment-agnostic. Define your carrier's location (local path or remote URL) within the configuration script:
 
 ```javascript
 // decoder/assets/js/script.js
-const imageSource = 'https://your-cdn.com/assets/banner.png'; // Remote URL Example
-// const imageSource = '../banner.png';                      // Local Path Example
+const imageSource = 'https://your-cdn.com/assets/fragment.png'; // Remote URL Example
+// const imageSource = '../fragment.png';                      // Local Path Example
 ```
 
 ### 3. Usage & Deployment
 The carrier image functions as a standard asset. It can be served from any Web Server, CDN, or Cloud Storage. To integrate the visual component into any markdown-supported environment (Portfolios, Documentation, or Blogs), use the standard reference:
 
 ```markdown
-![System Banner](https://your-server.com/path/to/banner.png)
+![System Image](https://your-server.com/path/to/fragment.png)
 ```
 
 ## Installation (Backend Encoder)
