@@ -54,6 +54,13 @@ sudo apt install php-cli php-gd -y
 ```bash
 brew install php
 ```
+## Run the server:
+
+    ```bash
+    php -S localhost:8000
+    ```
+
+    Open `http://localhost:8000` in your browser.
 
 ## Project Structure
 
