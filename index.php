@@ -65,13 +65,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['payload_text']) && is
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DeepStegano | LSB Encoder</title>
+    <title>Simple Stegano | LSB Encoder</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <div class="app-container">
         <header>
-            <div class="logo"><span>// </span>DEEP STEGANO</div>
+            <div class="logo"><span>// </span>SIMPLE STEGANO</div>
             <p class="subtitle">Steganographic Data Injection</p>
         </header>
 
