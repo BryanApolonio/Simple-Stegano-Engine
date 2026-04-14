@@ -3,7 +3,7 @@
 A pixel-level data concealment system that transforms static images into self-contained web applications.
 
 <p align="center">
-  <img src="./assets/img/encoder.png" width="48%" />
+  <img src="./assets/img/encoder.png" width="98%" />
 </p>
 
 ## Overview
