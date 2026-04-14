@@ -64,8 +64,7 @@ brew install php
 ## Project Structure
 
 ```text
-.
-├── banner.png              # The Carrier (Injected with Payload)
+
 ├── index.php               # THE ENCODER: PHP LSB Injection Engine
 ├── assets/
 │   ├── css/
