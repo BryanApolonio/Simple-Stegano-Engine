@@ -12,12 +12,6 @@ A pixel-level data concealment system that transforms static images into self-co
 
 The core philosophy is **Functional Stealth**: the image serves as the carrier, the database, and the interface simultaneously. When accessed through the provided loader, the binary stream is reconstructed in the client-side buffer and rendered instantly.
 
-## How it Works
-
-  - **The Injection:** A PHP backend engine decomposes code into a binary stream, weaving bits into the RGB channels with a delta change of $1/255$.
-  - **The Recovery:** A vanilla JavaScript engine scrapes the pixel buffer via `Canvas API`, reconstructs ASCII characters, and re-opens the DOM stream.
-  - **The Sharding:** Supports fragmented distribution across multiple images for large-scale application scaling.
-
 ## Prerequisites
 
 To generate your own carriers or run the loader, you need:
