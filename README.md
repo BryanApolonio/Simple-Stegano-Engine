@@ -1,4 +1,4 @@
-# Simple Stegano Engine
+# Stegano Engine
 
 A pixel-level data concealment system that transforms static images into self-contained web applications.
 
@@ -8,7 +8,7 @@ A pixel-level data concealment system that transforms static images into self-co
 
 ## Overview
 
-**Simple Stegano Engine** is an advanced implementation of **LSB (Least Significant Bit)** steganography. It allows developers to inject entire payloads (HTML/CSS/JS) into the spatial domain of a PNG file.
+**Stegano Engine** is an advanced implementation of **LSB (Least Significant Bit)** steganography. It allows developers to inject entire payloads (HTML/CSS/JS) into the spatial domain of a PNG file.
 
 The core philosophy is **Functional Stealth**: the image serves as the carrier, the database, and the interface simultaneously. When accessed through the provided loader, the binary stream is reconstructed in the client-side buffer and rendered instantly.
 
